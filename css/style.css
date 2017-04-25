@@ -1,0 +1,64 @@
+@import url('http://fonts.googleapis.com/css?family=Maiden+Orange'); 
+body{
+  background-color: #C6F7DF;
+}
+.title{
+  font-family: Maiden Orange;
+  font-weight: 400;
+  font-size: 5em;
+  text-align: center;
+}
+#button{
+  position: relative;
+  margin: auto;
+  width: 200px;
+  height: 60px;
+  background-color:#61380B;
+  border-radius: 5px;
+  font-family: Tahoma, Arial, san-serif;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30px;
+}
+.glow{
+    -webkit-box-shadow: 0 0 20px #FFD700;
+    -moz-box-shadow: 0 0 20px #FFD700;
+    box-shadow: 0 0 20px #FFD700;
+    cursor:pointer;
+    background-color: A36015;
+}
+.container{
+  width: 440px;
+  height: 340px;
+  margin: auto;
+  margin-top: -30px;
+}
+.backCard{
+  display: none;
+  float: left;
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+  background-color: #FC8181;
+}
+img{
+  display: none;
+  width: 100px;
+  height: 100px;
+ }
+.youWin{
+  visibility: hidden;
+  font-family: Maiden Orange;
+  font-weight: 700;
+  font-size: 9em;
+  margin-top: 0px;
+  text-align: center;
+  text-shadow: -2px 2px 0px #FFD700;
+  z-index:
+  -webkit-transform: rotate(-5deg) skew(-10eg, 0);
+  -moz-transform: rotate(-5deg) skew(-10deg, 0);
+  -ms-transform: rotate(-5deg) skew(-10deg, 0);
+  -o-transform: rotate(-5deg) skew(-10deg, 0);
+  transform: rotate(-5deg) skew(-10deg, 0);
+}
