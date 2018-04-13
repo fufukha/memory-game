@@ -1,9 +1,8 @@
-@import url('http://fonts.googleapis.com/css?family=Maiden+Orange'); 
 body{
   background-color: #C6F7DF;
 }
 .title{
-  font-family: 'Maiden Orange';
+  font-family:'Maiden Orange', cursive;
   font-weight: 400;
   font-size: 5em;
   text-align: center;
@@ -49,7 +48,7 @@ img{
  }
 .youWin{
   visibility: hidden;
-  font-family: 'Maiden Orange';
+  font-family: 'Maiden Orange', cursive;
   font-weight: 700;
   font-size: 9em;
   margin-top: 0px;
