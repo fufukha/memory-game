@@ -18,7 +18,11 @@ $( document ).ready(function() {
 
 
   var cards= $('.backCard')
-  var images=["http://i1382.photobucket.com/albums/ah273/wafakhalid29/RGBCard_zps13c1303d.png", "http://i1382.photobucket.com/albums/ah273/wafakhalid29/MonkeyCard_zps89ac2dba.png", "http://i1382.photobucket.com/albums/ah273/wafakhalid29/RobotCard_zps9183f847.png", "http://i1382.photobucket.com/albums/ah273/wafakhalid29/RainCard_zpsb2a0aa5a.png", "http://i1382.photobucket.com/albums/ah273/wafakhalid29/AttrCard_zpsc007840b.png", "http://i1382.photobucket.com/albums/ah273/wafakhalid29/OppsCard_zpsfaf90ced.png" ]
+  var images= [
+    "./img/RGBCard.png", "./img/MonkeyCard.png", 
+    "./img/RobotCard.png", "./img/RainCard.png",
+    "./img/AttrCard.png", "./img/OppsCard.png" 
+    ]
 
   function ranAssign(){
     var classImg= [0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5];
