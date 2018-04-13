@@ -19,9 +19,9 @@ $( document ).ready(function() {
 
   var cards= $('.backCard')
   var images= [
-    "./img/RGBCard.png", "./img/MonkeyCard.png", 
-    "./img/RobotCard.png", "./img/RainCard.png",
-    "./img/AttrCard.png", "./img/OppsCard.png" 
+    "./images/RGBCard.png", "./images/MonkeyCard.png", 
+    "./images/RobotCard.png", "./images/RainCard.png",
+    "./images/AttrCard.png", "./images/OppsCard.png" 
     ]
 
   function ranAssign(){
